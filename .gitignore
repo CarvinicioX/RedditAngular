@@ -41,3 +41,21 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+/dist/
+bazel-*
+bower_components
+tools/gulp-tasks/cldr/cldr-data/
+
+# Don't check in secret files
+*secret.js
+
+# Ignore npm/yarn debug log
+npm-debug.log
+yarn-error.log
+
+# build-analytics
+.build-analytics
+
+# rollup-test output
+/modules/rollup-test/dist/
